@@ -156,7 +156,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .hero-button {
@@ -236,6 +236,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 .advantages-item {
   width: calc((100%-72px) / 4);
@@ -286,7 +287,10 @@ button {
 
 .container-team-card {
   padding: 32px 0;
+  margin-bottom: 8px;
 }
+
+
 
 .team-list-soc {
   display: flex;
