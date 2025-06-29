@@ -376,7 +376,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .container-footer {
   display: flex;
   align-items: top;
-  gap: 120px;
+ 
 }
 
 .footer-text {
@@ -402,7 +402,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-social-list {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 
   gap: 16px;
 }
@@ -420,4 +420,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-social-item:hover,
 .footer-social-item:focus {
   background-color: #31d0aa;
+}
+
+.container-logo {
+  margin-right: 120px;
 }
